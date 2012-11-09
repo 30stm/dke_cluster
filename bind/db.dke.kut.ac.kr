@@ -1,0 +1,29 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	ns.dke.kut.ac.kr. root.dke.kut.ac.kr. (
+			2012072701	; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	ns.
+@	IN	A	127.0.0.1
+@	IN	AAAA	::1
+ns 	IN	A	192.168.0.23
+
+host14	In	A	192.168.0.14
+host15	IN	A	192.168.0.15
+host16	IN	A	192.168.0.16
+host17	IN	A	192.168.0.17
+host18	IN	A	192.168.0.18
+host19	IN	A	192.168.0.19
+host20	IN	A	192.168.0.20
+host21	IN	A	192.168.0.21
+host22	IN	A	192.168.0.22
+host23	IN	A	192.168.0.23
+host24	IN	A	192.168.0.24
+host25	IN	A	192.168.0.25
+host20	IN	A	192.168.0.20

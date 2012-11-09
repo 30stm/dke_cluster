@@ -1,0 +1,26 @@
+;
+; BIND reverse data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	ns.dke.kut.ac.kr. root.dke.kut.ac.kr. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	ns.
+
+14	IN	PTR	host14.dke.kut.ac.kr.
+15	IN	PTR	host15.dke.kut.ac.kr.
+16	IN	PTR	host16.dke.kut.ac.kr.
+17	IN	PTR	host17.dke.kut.ac.kr.
+18	IN	PTR	host18.dke.kut.ac.kr.
+19	IN	PTR	host19.dke.kut.ac.kr.
+20	IN	PTR	host20.dke.kut.ac.kr.
+21	IN	PTR	host21.dke.kut.ac.kr.
+22	IN	PTR	host22.dke.kut.ac.kr.
+23	IN	PTR	host23.dke.kut.ac.kr.
+24	IN	PTR	host24.dke.kut.ac.kr.
+25	IN	PTR	host25.dke.kut.ac.kr.
+
