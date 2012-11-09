@@ -11,6 +11,7 @@ $TTL	604800
 ;
 @	IN	NS	ns.
 
+2	IN	PTR	host2.dke.kut.ac.kr.
 14	IN	PTR	host14.dke.kut.ac.kr.
 15	IN	PTR	host15.dke.kut.ac.kr.
 16	IN	PTR	host16.dke.kut.ac.kr.
