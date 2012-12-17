@@ -6,15 +6,18 @@ dke_cluster
 이 문서은 dke랩실내에서 분산처리환경에 대한 연구를 하기 위해 작성되어있다.
 주로 클러스터 설치에 관하여 다룬다. 
 
-- PC 설정
--- 컴퓨터는 모두 동종으로 구성되어야 우수하다고 알려져있다.
-
+클러스터 설치를 위한 대략적인 순서는 아래와 같다.  
 
 1. 각 컴퓨터에 Ubuntu를 설치한후(계정 설정, SSH 등)
 2. 각 PC에 공유기를 이용하여 IP를 부여한다. 
 3. Domain name server(bind9)을 이용하여 각 서버에 domain 주소를 부여한다. 
 4. cloudera manager를 PC 중 1대에 설치한다.
 5. cloudera manager를 이용해 다른 PC들에 cloudera agents, CDH, java 등을 설치한다.
+
+
+[네트워크 구성](https://github.com/30stm/dke_cluster/wiki/network-configuration)  
+[클러스터 설치] (https://github.com/30stm/dke_cluster/wiki/Cluster-Installation-Manual)
+
 
 # 모니터 스위치 컴퓨터 별 맵핑
 
@@ -50,6 +53,4 @@ dke_cluster
 </table>
 
 * 23번 컴퓨터 : 관리자
-
-[네트워크 구성](https://github.com/30stm/dke_cluster/wiki/network-configuration)  
-[클러스터 설치] (https://github.com/30stm/dke_cluster/wiki/Cluster-Installation-Manual)
+* 
