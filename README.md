@@ -14,9 +14,10 @@ dke_cluster
 4. cloudera manager를 PC 중 1대에 설치한다.
 5. cloudera manager를 이용해 다른 PC들에 cloudera agents, CDH, java 등을 설치한다.
 
-
+[PC 설정](https://github.com/30stm/dke_cluster/wiki/%EA%B0%81-%EC%BB%B4%ED%93%A8%ED%84%B0-%EC%84%A4%EC%A0%95)
 [네트워크 구성](https://github.com/30stm/dke_cluster/wiki/network-configuration)  
 [클러스터 설치] (https://github.com/30stm/dke_cluster/wiki/Cluster-Installation-Manual)
+
 
 
 # 모니터 스위치 컴퓨터 별 맵핑
