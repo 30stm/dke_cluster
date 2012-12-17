@@ -15,11 +15,3 @@ zone "0.168.192.in-addr.arpa" {
      notify no;
      file "/etc/bind/db.192";
 };
-
-logging {
-	channel query.log {
-		file "/var/log/query.log";
-		severity debug 3;
-	};
-	category queries { query.log; };
-};
